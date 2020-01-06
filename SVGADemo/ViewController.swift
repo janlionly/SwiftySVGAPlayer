@@ -10,14 +10,15 @@ import UIKit
 import SwiftySVGAPlayer
 
 class ViewController: UIViewController {
-
+    let player = SwiftySVGAPlayer()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        player.cache(svga: "http://xxx/filename.svga")
     }
 
     @IBAction func buttonTapped(_ sender: UIButton) {
-        let player = SwiftySVGAPlayer()
         player.play(svga: "http://xxx/filename.svga", on: self.view)
     }
     
