@@ -62,4 +62,4 @@ I would love you to contribute to **SwiftySVGAPlayer**
 
 ## License
 
-**SwiftySVGAPlayer** is available under the MIT license. See the [LICENSE](https://github.com/janlionly/SwiftySVGAPlayer/blob/master/LICENSE) file for more info.
+**SwiftySVGAPlayer** is available under the Apache 2.0 license. See the [LICENSE](https://github.com/janlionly/SwiftySVGAPlayer/blob/master/LICENSE) file for more info.

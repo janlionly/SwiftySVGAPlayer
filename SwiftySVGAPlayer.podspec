@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name             = 'SwiftySVGAPlayer'
-  s.version          = '1.0.1'
+  s.version          = '1.0'
   s.summary          = 'SwiftySVGAPlayer is a high level APIs based on SVGAPlayer.'
   
   s.social_media_url = 'https://twitter.com/janlionly'
   s.homepage         = 'https://github.com/janlionly/SwiftySVGAPlayer'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = "Apache 2.0"
   s.author           = { 'janlionly' => 'janlionly@gmail.com' }
   s.source           = { :git => 'https://github.com/janlionly/SwiftySVGAPlayer.git', :tag => s.version.to_s }
   
