@@ -1,0 +1,4 @@
+framework module SwiftySVGAPlayer {
+  header "SwiftySVGAPlayer-Swift.h"
+  requires objc
+}
