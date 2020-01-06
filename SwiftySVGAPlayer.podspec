@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   
   s.vendored_frameworks = '*.framework'
-  s.frameworks = 'UIKit', 'CommonCrypto'
+  s.frameworks = 'UIKit'
 
   s.swift_versions = ['4.2', '5.0', '5.1']
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
