@@ -1,5 +1,2 @@
-* linguist-vendored
-*.js linguist-vendored=false
-
-# Example of a `.gitattributes` file which reclassifies `.rb` files as Java:
-*.swift linguist-language=Swift
+# direct swift
+*.* linguist-language=Swift
