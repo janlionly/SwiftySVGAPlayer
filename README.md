@@ -28,25 +28,26 @@ SwiftySVGAPlayer().play(svga: "https://xxx/filename.svga", on: self.view)
 // Warning: Playing a svga maybe slow for the first time, you could batch cache svgas in some place like after app launch or log in before play them
 SwiftySVGAPlayer().cache(svga: "https://xxx/filename.svga")
 
+
 // Optional: ----------------------------------------------------
 // detail properties and methods
-    /// Whether user interaction enabled when play svga
-    public var isUserInteractionEnabled: Bool
+/// Whether user interaction enabled when play svga
+public var isUserInteractionEnabled: Bool
 
-    /// Whether add shadow mask when play svga
-    public var isMask: Bool
+/// Whether add shadow mask when play svga
+public var isMask: Bool
 
-    /// Whether play a single svga forever
-    public var isInfinite: Bool
+/// Whether play a single svga forever
+public var isInfinite: Bool
 
-    /// Add svga urlstring or svgadata's base64string to FIFO queue and pop to play
-		open func play(svga urlString: String, on view: UIView, isInstant: Bool = false, scale: CGFloat = 1)
+/// Add svga urlstring or svgadata's base64string to FIFO queue and pop to play
+open func play(svga urlString: String, on view: UIView, isInstant: Bool = false, scale: CGFloat = 1)
 
-		/// prepare to cache for svga url
-		public func cache(svga urlString: String, failure: ((Error) -> Void)? = nil)
+/// prepare to cache for svga url
+public func cache(svga urlString: String, failure: ((Error) -> Void)? = nil)
 
-		/// reset player to inital state
-    open func clear()
+/// reset player to inital state
+open func clear()
 
 ```
 
