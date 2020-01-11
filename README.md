@@ -7,7 +7,7 @@
 
 
 ## Description
-**SwiftySVGAPlayer** is a high level APIs based on [SVGAPlayer](https://github.com/yyued/SVGAPlayer-iOS).
+**SwiftySVGAPlayer** is a high level APIs based on [SVGAPlayer](https://github.com/yyued/SVGAPlayer-iOS), which support play svga according url or local svga data, default push svga in FIFO queue, and then pop to play, and you can set isInstant true for cancel the queue.
 
 
 ## Installation
@@ -39,7 +39,7 @@ SwiftySVGAPlayer().cache(svga: "https://xxx/filename.svga")
     /// Whether play a single svga forever
     public var isInfinite: Bool
 
-    /// Add svga url to FIFO queue and pop to play
+    /// Add svga urlstring or svgadata's base64string to FIFO queue and pop to play
 		open func play(svga urlString: String, on view: UIView, isInstant: Bool = false, scale: CGFloat = 1)
 
 		/// prepare to cache for svga url
