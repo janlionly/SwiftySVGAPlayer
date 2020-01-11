@@ -8,14 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0615E7D38A88683B69527385 /* Pods_SVGADemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEBCE5811054B5B5CD2E7B82 /* Pods_SVGADemo.framework */; };
+		2783B75823C9A028005DAB69 /* dice.svga in Resources */ = {isa = PBXBuildFile; fileRef = 2783B75723C9A028005DAB69 /* dice.svga */; };
+		2783B76023C9A8DC005DAB69 /* SwiftySVGAPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2783B75E23C9A8C0005DAB69 /* SwiftySVGAPlayer.framework */; };
+		2783B76123C9A8DC005DAB69 /* SwiftySVGAPlayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2783B75E23C9A8C0005DAB69 /* SwiftySVGAPlayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		27E11D3E23C31F230064A545 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E11D3D23C31F230064A545 /* AppDelegate.swift */; };
 		27E11D4023C31F230064A545 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E11D3F23C31F230064A545 /* SceneDelegate.swift */; };
 		27E11D4223C31F230064A545 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E11D4123C31F230064A545 /* ViewController.swift */; };
 		27E11D4523C31F230064A545 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E11D4323C31F230064A545 /* Main.storyboard */; };
 		27E11D4723C31F240064A545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E11D4623C31F240064A545 /* Assets.xcassets */; };
 		27E11D4A23C31F240064A545 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E11D4823C31F240064A545 /* LaunchScreen.storyboard */; };
-		27E11D5C23C32AF70064A545 /* SwiftySVGAPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E11D5A23C32AF30064A545 /* SwiftySVGAPlayer.framework */; };
-		27E11D5D23C32AF70064A545 /* SwiftySVGAPlayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 27E11D5A23C32AF30064A545 /* SwiftySVGAPlayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,7 +26,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				27E11D5D23C32AF70064A545 /* SwiftySVGAPlayer.framework in Embed Frameworks */,
+				2783B76123C9A8DC005DAB69 /* SwiftySVGAPlayer.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -33,6 +34,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2783B75723C9A028005DAB69 /* dice.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = dice.svga; sourceTree = "<group>"; };
+		2783B75E23C9A8C0005DAB69 /* SwiftySVGAPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftySVGAPlayer.framework; sourceTree = "<group>"; };
 		27E11D3A23C31F230064A545 /* SVGADemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVGADemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E11D3D23C31F230064A545 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27E11D3F23C31F230064A545 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,7 +44,6 @@
 		27E11D4623C31F240064A545 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27E11D4923C31F240064A545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27E11D4B23C31F240064A545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		27E11D5A23C32AF30064A545 /* SwiftySVGAPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftySVGAPlayer.framework; sourceTree = "<group>"; };
 		5D4276B8D6CE25528F728945 /* Pods-SVGADemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVGADemo.debug.xcconfig"; path = "Target Support Files/Pods-SVGADemo/Pods-SVGADemo.debug.xcconfig"; sourceTree = "<group>"; };
 		7F352B5D14D6C0ED16C52630 /* Pods-SVGADemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVGADemo.release.xcconfig"; path = "Target Support Files/Pods-SVGADemo/Pods-SVGADemo.release.xcconfig"; sourceTree = "<group>"; };
 		EEBCE5811054B5B5CD2E7B82 /* Pods_SVGADemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SVGADemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27E11D5C23C32AF70064A545 /* SwiftySVGAPlayer.framework in Frameworks */,
+				2783B76023C9A8DC005DAB69 /* SwiftySVGAPlayer.framework in Frameworks */,
 				0615E7D38A88683B69527385 /* Pods_SVGADemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,7 +73,7 @@
 		27E11D3123C31F230064A545 = {
 			isa = PBXGroup;
 			children = (
-				27E11D5A23C32AF30064A545 /* SwiftySVGAPlayer.framework */,
+				2783B75E23C9A8C0005DAB69 /* SwiftySVGAPlayer.framework */,
 				27E11D3C23C31F230064A545 /* SVGADemo */,
 				27E11D3B23C31F230064A545 /* Products */,
 				36438F2EB0E400C0718BEB03 /* Pods */,
@@ -90,6 +92,7 @@
 		27E11D3C23C31F230064A545 /* SVGADemo */ = {
 			isa = PBXGroup;
 			children = (
+				2783B75723C9A028005DAB69 /* dice.svga */,
 				27E11D3D23C31F230064A545 /* AppDelegate.swift */,
 				27E11D3F23C31F230064A545 /* SceneDelegate.swift */,
 				27E11D4123C31F230064A545 /* ViewController.swift */,
@@ -172,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27E11D4A23C31F240064A545 /* LaunchScreen.storyboard in Resources */,
+				2783B75823C9A028005DAB69 /* dice.svga in Resources */,
 				27E11D4723C31F240064A545 /* Assets.xcassets in Resources */,
 				27E11D4523C31F230064A545 /* Main.storyboard in Resources */,
 			);
@@ -375,6 +379,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A73XC757VV;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -399,6 +404,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A73XC757VV;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",

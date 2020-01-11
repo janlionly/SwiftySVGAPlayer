@@ -12,6 +12,7 @@ import SwiftySVGAPlayer
 class ViewController: UIViewController {
     let player = SwiftySVGAPlayer()
     
+    @IBOutlet weak var contentView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -19,7 +20,11 @@ class ViewController: UIViewController {
     }
 
     @IBAction func buttonTapped(_ sender: UIButton) {
-        player.play(svga: "http://xxx/filename.svga", on: self.view)
+        if let filepath = Bundle.main.url(forResource: "dice", withExtension: "svga") {
+            if let data = try? Data(contentsOf: filepath) {
+                SwiftySVGAPlayer().play(svga: data.base64EncodedString(), on: self.contentView, isInstant: true, scale: 1)
+            }
+        }
     }
     
 }

@@ -15,22 +15,42 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8pt-hX-Psc">
-                                <rect key="frame" x="184" y="268" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8pt-hX-Psc">
+                                <rect key="frame" x="184" y="84" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="fci-AX-0pH"/>
+                                    <constraint firstAttribute="height" constant="30" id="ldp-pS-CJx"/>
+                                </constraints>
+                                <state key="normal" title="Play"/>
                                 <connections>
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sqb-rE-yir"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vUO-O1-7KH">
+                                <rect key="frame" x="178" y="419" width="58" height="58"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="58" id="xrW-TK-roY"/>
+                                    <constraint firstAttribute="width" constant="58" id="yZS-0R-Ua8"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="8pt-hX-Psc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="5yo-OL-lAl"/>
+                            <constraint firstItem="8pt-hX-Psc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="d5Q-s2-68U"/>
+                            <constraint firstItem="vUO-O1-7KH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="tXh-gn-aTo"/>
+                            <constraint firstItem="vUO-O1-7KH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wBx-Ge-RvT"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="contentView" destination="vUO-O1-7KH" id="ktq-Za-4r6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="141" y="139"/>
+            <point key="canvasLocation" x="140.57971014492756" y="138.61607142857142"/>
         </scene>
     </scenes>
 </document>
