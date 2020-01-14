@@ -23,7 +23,7 @@ just one line code to play svga:
 
 ```swift
 // for example in a controller:
-SwiftySVGAPlayer().play(svga: "https://xxx/filename.svga", on: self.view)
+SwiftySVGAPlayer().pushToPlay(svga: "https://xxx/filename.svga", on: self.view)
 
 // Warning: Playing a svga maybe slow for the first time, you could batch cache svgas in some place like after app launch or log in before play them
 SwiftySVGAPlayer().cache(svga: "https://xxx/filename.svga")
@@ -48,6 +48,8 @@ public func cache(svga urlString: String, failure: ((Error) -> Void)? = nil)
 
 /// reset player to inital state
 open func clear()
+
+/// other methods for example pause/stop/play and so on, please see the demo in rep
 
 ```
 

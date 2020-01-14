@@ -21,12 +21,24 @@ class ViewController: UIViewController {
 
     @IBAction func buttonTapped(_ sender: UIButton) {
         let player = SwiftySVGAPlayer()
+        player.isKeepWhenStop = true
+        player.isUserInteractionEnabled = true
+        var isPause = false
+        
+        weak var weakPlayer = player
         player.tapClosure = {
             print("You tap the svga")
+            if !isPause {
+                weakPlayer?.pause()
+                isPause = true
+            } else {
+                weakPlayer?.play()
+                isPause = false
+            }
         }
         if let filepath = Bundle.main.url(forResource: "dice", withExtension: "svga") {
             if let data = try? Data(contentsOf: filepath) {
-                player.play(svga: data.base64EncodedString(), on: self.contentView, isInstant: true, scale: 1)
+                player.pushToPlay(svga: data.base64EncodedString(), on: self.contentView, isInstant: true, scale: 1)
             }
         }
     }
