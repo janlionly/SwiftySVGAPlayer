@@ -20,9 +20,13 @@ class ViewController: UIViewController {
     }
 
     @IBAction func buttonTapped(_ sender: UIButton) {
+        let player = SwiftySVGAPlayer()
+        player.tapClosure = {
+            print("You tap the svga")
+        }
         if let filepath = Bundle.main.url(forResource: "dice", withExtension: "svga") {
             if let data = try? Data(contentsOf: filepath) {
-                SwiftySVGAPlayer().play(svga: data.base64EncodedString(), on: self.contentView, isInstant: true, scale: 1)
+                player.play(svga: data.base64EncodedString(), on: self.contentView, isInstant: true, scale: 1)
             }
         }
     }
