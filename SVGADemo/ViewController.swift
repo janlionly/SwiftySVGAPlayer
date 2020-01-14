@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         player.tapClosure = {
             print("You tap the svga")
             if !isPause {
-                weakPlayer?.pause()
+                weakPlayer?.stop()
                 isPause = true
             } else {
                 weakPlayer?.play()
