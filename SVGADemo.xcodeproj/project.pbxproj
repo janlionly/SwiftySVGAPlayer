@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		0615E7D38A88683B69527385 /* Pods_SVGADemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEBCE5811054B5B5CD2E7B82 /* Pods_SVGADemo.framework */; };
 		2783B75823C9A028005DAB69 /* dice.svga in Resources */ = {isa = PBXBuildFile; fileRef = 2783B75723C9A028005DAB69 /* dice.svga */; };
-		2792572023D011D200BE05B8 /* SwiftySVGAPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2792571E23D011D000BE05B8 /* SwiftySVGAPlayer.framework */; };
-		2792572123D011D200BE05B8 /* SwiftySVGAPlayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2792571E23D011D000BE05B8 /* SwiftySVGAPlayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		279AFF9C23D1B1E20009FEEA /* SwiftySVGAPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279AFF9A23D1B1E00009FEEA /* SwiftySVGAPlayer.framework */; };
+		279AFF9D23D1B1E20009FEEA /* SwiftySVGAPlayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 279AFF9A23D1B1E00009FEEA /* SwiftySVGAPlayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		27E11D3E23C31F230064A545 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E11D3D23C31F230064A545 /* AppDelegate.swift */; };
 		27E11D4023C31F230064A545 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E11D3F23C31F230064A545 /* SceneDelegate.swift */; };
 		27E11D4223C31F230064A545 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E11D4123C31F230064A545 /* ViewController.swift */; };
@@ -26,7 +26,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2792572123D011D200BE05B8 /* SwiftySVGAPlayer.framework in Embed Frameworks */,
+				279AFF9D23D1B1E20009FEEA /* SwiftySVGAPlayer.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -35,7 +35,7 @@
 
 /* Begin PBXFileReference section */
 		2783B75723C9A028005DAB69 /* dice.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = dice.svga; sourceTree = "<group>"; };
-		2792571E23D011D000BE05B8 /* SwiftySVGAPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftySVGAPlayer.framework; sourceTree = "<group>"; };
+		279AFF9A23D1B1E00009FEEA /* SwiftySVGAPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftySVGAPlayer.framework; sourceTree = "<group>"; };
 		27E11D3A23C31F230064A545 /* SVGADemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVGADemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E11D3D23C31F230064A545 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27E11D3F23C31F230064A545 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2792572023D011D200BE05B8 /* SwiftySVGAPlayer.framework in Frameworks */,
+				279AFF9C23D1B1E20009FEEA /* SwiftySVGAPlayer.framework in Frameworks */,
 				0615E7D38A88683B69527385 /* Pods_SVGADemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -73,7 +73,7 @@
 		27E11D3123C31F230064A545 = {
 			isa = PBXGroup;
 			children = (
-				2792571E23D011D000BE05B8 /* SwiftySVGAPlayer.framework */,
+				279AFF9A23D1B1E00009FEEA /* SwiftySVGAPlayer.framework */,
 				27E11D3C23C31F230064A545 /* SVGADemo */,
 				27E11D3B23C31F230064A545 /* Products */,
 				36438F2EB0E400C0718BEB03 /* Pods */,
