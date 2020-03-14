@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         player.isKeepWhenStop = true
         player.isUserInteractionEnabled = true
         var isPause = false
-        
+        player.svgaPoint = CGPoint(x: 0, y: -60)
         weak var weakPlayer = player
         player.tapClosure = {
             print("You tap the svga")

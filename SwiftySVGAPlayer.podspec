@@ -1,6 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SwiftySVGAPlayer'
-  s.version          = '1.2.9'
+  s.version          = '1.3.3'
+
   s.summary          = 'SwiftySVGAPlayer is a high level APIs based on SVGAPlayer.'
   s.description      = 'Support play svga according url or local svga data, default push svga in FIFO queue, and then pop to play, and you can set isInstant value true for cancel the queue.'
   
