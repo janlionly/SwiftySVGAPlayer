@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SwiftySVGAPlayer'
-  s.version          = '1.3.6'
+  s.version          = '1.3.7'
 
   s.summary          = 'SwiftySVGAPlayer is a high level APIs based on SVGAPlayer.'
   s.description      = 'Support play svga according url or local svga data, default push svga in FIFO queue, and then pop to play, and you can set isInstant value true for cancel the queue.'
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = '*.framework'
   s.frameworks = 'UIKit'
 
-  s.swift_versions = ['4.2', '5.0', '5.1']
+  s.swift_versions = ['4.2', '5.0', '5.1', '5.2']
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
   s.dependency 'SVGAPlayer', '2.3.5'
 end
