@@ -15,7 +15,7 @@
 ### CocoaPods
 
 ```ruby
-pod 'SwiftySVGAPlayer'
+pod 'SwiftySVGAPlayer', '1.4.2'
 ```
 
 ## Usage
