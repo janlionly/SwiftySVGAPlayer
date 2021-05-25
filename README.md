@@ -19,7 +19,7 @@ pod 'SwiftySVGAPlayer'
 ```
 
 ## Usage
-just one line code to play svga:
+just one line code to play svga:(Please run on iOS device)
 
 ```swift
 // for example in a controller:
