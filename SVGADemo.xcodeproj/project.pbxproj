@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0615E7D38A88683B69527385 /* Pods_SVGADemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEBCE5811054B5B5CD2E7B82 /* Pods_SVGADemo.framework */; };
-		2783B75823C9A028005DAB69 /* dice.svga in Resources */ = {isa = PBXBuildFile; fileRef = 2783B75723C9A028005DAB69 /* dice.svga */; };
-		27DA6C9B23D4144A00EF19CF /* SwiftySVGAPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27DA6C9923D4144700EF19CF /* SwiftySVGAPlayer.framework */; };
-		27DA6C9C23D4144A00EF19CF /* SwiftySVGAPlayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 27DA6C9923D4144700EF19CF /* SwiftySVGAPlayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27918824265CF32800638C57 /* SwiftySVGAPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27918822265CF2C100638C57 /* SwiftySVGAPlayer.framework */; };
+		27918825265CF32800638C57 /* SwiftySVGAPlayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 27918822265CF2C100638C57 /* SwiftySVGAPlayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27918827265CF45C00638C57 /* angel.svga in Resources */ = {isa = PBXBuildFile; fileRef = 27918826265CF45C00638C57 /* angel.svga */; };
 		27E11D3E23C31F230064A545 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E11D3D23C31F230064A545 /* AppDelegate.swift */; };
 		27E11D4023C31F230064A545 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E11D3F23C31F230064A545 /* SceneDelegate.swift */; };
 		27E11D4223C31F230064A545 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E11D4123C31F230064A545 /* ViewController.swift */; };
@@ -26,7 +26,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				27DA6C9C23D4144A00EF19CF /* SwiftySVGAPlayer.framework in Embed Frameworks */,
+				27918825265CF32800638C57 /* SwiftySVGAPlayer.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -34,8 +34,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2783B75723C9A028005DAB69 /* dice.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = dice.svga; sourceTree = "<group>"; };
-		27DA6C9923D4144700EF19CF /* SwiftySVGAPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftySVGAPlayer.framework; sourceTree = "<group>"; };
+		27918822265CF2C100638C57 /* SwiftySVGAPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftySVGAPlayer.framework; sourceTree = "<group>"; };
+		27918826265CF45C00638C57 /* angel.svga */ = {isa = PBXFileReference; lastKnownFileType = file; path = angel.svga; sourceTree = "<group>"; };
 		27E11D3A23C31F230064A545 /* SVGADemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVGADemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E11D3D23C31F230064A545 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27E11D3F23C31F230064A545 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27DA6C9B23D4144A00EF19CF /* SwiftySVGAPlayer.framework in Frameworks */,
+				27918824265CF32800638C57 /* SwiftySVGAPlayer.framework in Frameworks */,
 				0615E7D38A88683B69527385 /* Pods_SVGADemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -73,7 +73,7 @@
 		27E11D3123C31F230064A545 = {
 			isa = PBXGroup;
 			children = (
-				27DA6C9923D4144700EF19CF /* SwiftySVGAPlayer.framework */,
+				27918822265CF2C100638C57 /* SwiftySVGAPlayer.framework */,
 				27E11D3C23C31F230064A545 /* SVGADemo */,
 				27E11D3B23C31F230064A545 /* Products */,
 				36438F2EB0E400C0718BEB03 /* Pods */,
@@ -92,7 +92,7 @@
 		27E11D3C23C31F230064A545 /* SVGADemo */ = {
 			isa = PBXGroup;
 			children = (
-				2783B75723C9A028005DAB69 /* dice.svga */,
+				27918826265CF45C00638C57 /* angel.svga */,
 				27E11D3D23C31F230064A545 /* AppDelegate.swift */,
 				27E11D3F23C31F230064A545 /* SceneDelegate.swift */,
 				27E11D4123C31F230064A545 /* ViewController.swift */,
@@ -174,8 +174,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27918827265CF45C00638C57 /* angel.svga in Resources */,
 				27E11D4A23C31F240064A545 /* LaunchScreen.storyboard in Resources */,
-				2783B75823C9A028005DAB69 /* dice.svga in Resources */,
 				27E11D4723C31F240064A545 /* Assets.xcassets in Resources */,
 				27E11D4523C31F230064A545 /* Main.storyboard in Resources */,
 			);
@@ -378,7 +378,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A73XC757VV;
+				DEVELOPMENT_TEAM = RVZ99V4PL3;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -403,7 +403,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A73XC757VV;
+				DEVELOPMENT_TEAM = RVZ99V4PL3;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

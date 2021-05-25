@@ -36,7 +36,7 @@ class ViewController: UIViewController {
                 isPause = false
             }
         }
-        if let filepath = Bundle.main.url(forResource: "dice", withExtension: "svga") {
+        if let filepath = Bundle.main.url(forResource: "angel", withExtension: "svga") {
             if let data = try? Data(contentsOf: filepath) {
                 player.pushToPlay(svga: data.base64EncodedString(), on: self.contentView, isInstant: true, scale: 1)
             }
